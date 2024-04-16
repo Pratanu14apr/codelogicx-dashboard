@@ -1,0 +1,114 @@
+.myOuter {
+    display: flex;
+    background-color: #EAF7F7;
+    flex-direction: column;
+}
+.myOuter .reviewBlock {
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: 180px;
+}
+/* #0000001a */
+.reviewBlock .avatarBlock{
+    position: relative;
+    width: 130px;
+}
+
+.reviewBlock .avatarBlock img{
+    width: 60px;
+    height: 60px;
+    border-radius: 100;
+    position:absolute;
+}
+
+.reviewBlock .avatarBlock img:nth-child(1){
+    left:0
+}
+
+.reviewBlock .avatarBlock img:nth-child(2){
+    left:30px;
+   
+}
+.reviewBlock .avatarBlock img:nth-child(3){
+    left:70px
+}
+
+.reviewBlock .textContainer {
+    display: flex;
+    padding: 15px 30px;
+    background-color: #265169;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100px;
+}
+.reviewBlock .textContainer p{
+    color: #ffffff;
+}
+.myOuter .imageContainer {
+    width: 420px;
+    height: 250px;
+    position: relative;
+}
+.myOuter .imageContainer img {
+    position: absolute;
+    width: 400px;
+    height: 250px;
+}
+.myOuter .imageContainer img:nth-child(1){
+    left:0;
+}
+.myOuter .imageContainer img:nth-child(2){
+    left:72px;
+    top:52px;
+}
+
+.partners {
+   position: relative;
+    margin-left: auto;
+    display: flex;
+    flex-direction: row;
+    background-color: #265169;
+    position: absolute;
+   
+    bottom:-98px;
+    right: 0;
+}
+.partners .itemName{
+    padding: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.partners .border {
+    border-right: 1px dashed #ffffff4d;
+}
+
+@media (max-width: 768px) {
+    .myOuter .reviewBlock {
+        margin-right: 20px;
+    }
+
+    .myOuter .imageContainer {
+        width: 100%;
+        height: auto;
+    }
+
+    .myOuter .imageContainer img {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+
+    .partners {
+        flex-wrap: wrap;
+        justify-content: center;
+        bottom: 0;
+    }
+
+    .partners .border {
+        border-right: none;
+        border-bottom: 1px dashed #ffffff4d;
+    }
+}

@@ -1,0 +1,191 @@
+#myFooter{
+    background-color: #265169;
+    padding: 55px 180px;
+    align-items: center;
+}
+#myFooter .footerContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#myFooter .footerContainer .leftArea {
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 37px;
+    padding-right: 50px;
+    
+}
+#myFooter .footerContainer .rightArea {
+    flex-basis: 50%;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 65px;
+}
+
+#myFooter .footerContainer .leftArea .upper .contactText{
+    font-size: 32px;
+    font-weight: 600;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+#myFooter .footerContainer .leftArea .upper .addressArea{
+    margin-bottom: 20px;
+}
+#myFooter .footerContainer .leftArea .upper .addressArea .addressText{
+    font-size: 20px;
+    color: #f3f3f3;
+    font-weight: 600;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+#myFooter .footerContainer .leftArea .upper .addressArea .location {
+    display: flex;flex-direction: row;
+    gap: 15px;
+}
+#myFooter .footerContainer .leftArea .upper .addressArea .location p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #ffffff;
+}
+#myFooter .footerContainer .leftArea .upper .emailPhone{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+#myFooter .footerContainer .leftArea .upper .emailPhone .info{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+#myFooter .footerContainer .leftArea .upper .emailPhone .info .details{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+#myFooter .footerContainer .leftArea .upper .emailPhone .info .details .heading{
+    font-size: 20px;
+    font-weight: 600;
+    color: #f3f3f3;
+    text-transform: uppercase;
+}
+
+#myFooter .footerContainer .leftArea .upper .emailPhone .info .details a{
+    font-size: 14px;
+    font-weight: 400;
+    color: #ffffff;
+    text-decoration: none;
+}
+#myFooter .footerContainer .leftArea .upper .emailPhone .info .details ul{
+    list-style-type: disc; 
+    margin-left: 20px;
+}
+#myFooter .footerContainer .leftArea .upper .emailPhone .info .details ul li{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    text-decoration: underline;
+    text-decoration-color: #ffffff;
+}
+
+#myFooter .footerContainer .leftArea .lower{
+    display: flex;
+    flex-direction: column;
+}
+#myFooter .footerContainer .leftArea .lower .textInputBox{
+    padding: 20px 10px;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    margin-bottom: 22px;
+    background-color: transparent;
+    
+}
+#myFooter .footerContainer .leftArea .lower .textInputBox::placeholder{
+    font-size: 16px;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+#myFooter .footerContainer .leftArea .lower .textInputBox:hover{
+    outline: none;
+    border: 1px solid #ffffff;
+}
+#myFooter .footerContainer .leftArea .lower .sendBtn {
+    padding: 20px 40px;
+    border: 1px solid #33b1e0;
+    background-color: #33B1E0;
+    margin-left: auto;
+    border-radius: 100px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+}
+#myFooter .footerContainer .leftArea .lower .sendBtn:hover{
+    border: 1px solid #33b1e0;
+    background-color: transparent;
+   
+}
+#myFooter .footerContainer .leftArea .lower .sendBtn span{
+    font-size: 20px;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+#myFooter .footerContainer .rightArea .Block{
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+}
+#myFooter .footerContainer .rightArea .Block .footerListItem{
+    flex-direction: column;
+}
+#myFooter .footerContainer .rightArea .Block .footerListItem p{
+    font-size: 20px;
+    font-weight: 600;
+    color: #33B1E0;
+    margin-bottom: 20px;
+}
+#myFooter .footerContainer .rightArea .Block .footerListItem ul{
+    display: flex;
+}
+#myFooter .footerContainer .rightArea .Block .footerListItem ul li{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+#myFooter .footerContainer .rightArea .Block .footerListItem ul li a{
+    font-weight: 300;
+    font-size: 13px;
+    color: #ccc;
+}
+
+@media (max-width: 576px) {
+    #myFooter {
+        padding: 20px; 
+    }
+
+    #myFooter .footerContainer {
+        flex-direction: column;
+        align-items: center; 
+    }
+
+    #myFooter .footerContainer .leftArea {
+        padding-right: 0; 
+    }
+
+    #myFooter .footerContainer .rightArea {
+        padding-left: 0;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    #myFooter {
+        padding: 40px; 
+    }
+}

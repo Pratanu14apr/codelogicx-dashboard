@@ -1,0 +1,133 @@
+.navBarSection {
+    display: flex;
+    flex-direction: row;
+    padding: 0px 180px;
+    align-items: center;
+    justify-content: space-between;
+     background-color: #EAF7F7;
+ } 
+ 
+ .logo {
+   width: 158px;
+   height: 76px;
+ }
+ 
+ .btn {
+     padding: 20px 40px;
+     align-items: center;
+     border: 1px solid #265169;
+     color: #265169;
+     background-color: transparent;
+     font-size: 20px;
+     border-radius: 100px;
+     font-weight: 500;
+ }
+ .btn:hover {
+     background-color: #265169;
+     color: #ffffff;
+ }
+ .menu ul{
+     display: flex;
+     list-style: none;
+     display: flex;
+     flex-direction: row;
+     gap: 30px;
+ }
+ 
+ .menu ul li {
+     align-items: center;  
+ }
+ 
+ .menu ul li a {
+     text-decoration: none;
+     color: #265169;
+     size: 16px;
+     font-weight: 500;
+     margin-right: 5px;
+ }
+ 
+ 
+/* @media screen and (max-width: 767px) {
+    .navBarSection {
+      flex-direction: column;
+      padding: 15px;
+    }
+  
+    .logo {
+      align-self: flex-start; 
+    }
+  
+    .menuIcon {
+      display: inline-block; 
+      cursor: pointer;
+      margin-top: 10px; 
+    }
+  
+    .menu ul {
+      display: none; 
+      list-style: none;
+      padding: 0;
+      margin-top: 10px; 
+    }
+  
+    .menu ul li {
+      margin-bottom: 10px;
+    }
+  }
+  
+ 
+  @media screen and (min-width: 768px) and (max-width: 991px) {
+   
+    .navBarSection {
+      padding: 20px 30px;
+    }
+  }
+  
+ 
+  @media screen and (min-width: 992px) {
+    .menuIcon {
+      display: none;
+    }
+    .menu ul {
+        display: flex;
+      }
+  } */
+
+  @media screen and (max-width: 1200px) {
+    .navBarSection {
+      padding: 20px 30px;
+    }
+  }
+  
+  
+  @media screen and (max-width: 992px) {
+    .navBarSection {
+      padding: 15px;
+    }
+  }
+  
+ 
+  @media screen and (max-width: 768px) {
+    .navBarSection {
+      flex-direction: column;
+      padding: 15px;
+    }
+  }
+  
+  
+  @media screen and (max-width: 576px) {
+    .logo {
+      width: 120px;
+      height: auto;
+    }
+  
+    .btn {
+      padding: 10px 20px;
+      font-size: 14px;
+    }
+  
+    .menu ul {
+      flex-direction: column;
+      gap: 10px;
+    }
+  }

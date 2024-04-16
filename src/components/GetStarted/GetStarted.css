@@ -1,0 +1,114 @@
+.outerContainer {
+ background-color: #EAF7F7;
+}
+
+.inner {
+   padding:48px 180px 0px 180px;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+
+}
+.leftBlock {
+    flex-basis: 60%;
+}
+.rightBlock{
+    margin-left: auto;
+    padding: 40px 0px 40px 40px;
+}
+.leftBlock img {
+    width: 480px;
+    height: 120px;
+}
+.leftBlock .product{
+    font-size: 42px;
+    color: #265169;
+    text-transform: uppercase;
+    white-space: nowrap;
+    font-weight: 500;
+    width: 200px;
+}
+.getStartedBtnBlock {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+} 
+.getStartedBtnBlock button {
+    padding: 20px 40px;
+    border-radius: 100px;
+    background-color: #265169;
+    font-size: 24px;
+    font-weight: 500;
+    border: none;
+    color: #ffffff;
+    border: 1px solid #265169;
+}
+.getStartedBtnBlock p {
+    font-size: 42px;
+    color: #265169;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.videoBlock {
+    padding: 48px 0px 48px 48px;
+    border: 1px solid black;
+}
+
+.getStartedBtnBlock button:hover{
+    background-color: transparent;
+    color: #265169;
+    border: 1px solid #265169;
+}
+
+
+@media screen and (max-width: 767px) {
+    .inner {
+      flex-direction: column;
+      padding: 48px 20px; 
+      align-items: center;
+    }
+  
+    .leftBlock {
+      flex-basis: auto; 
+      text-align: center; 
+    }
+  
+    .rightBlock {
+      margin-left: 0; 
+      padding: 0; 
+      margin-top: 20px; 
+      text-align: center; 
+    }
+  
+    .leftBlock img {
+      width: 100%; 
+      max-width: 300px; 
+      height: auto; 
+    }
+  
+    .leftBlock .product {
+      font-size: 28px; 
+      width: auto; 
+    }
+  
+    .getStartedBtnBlock {
+      flex-direction: column; 
+      align-items: center; 
+      margin-top: 15px;
+    }
+  
+    .getStartedBtnBlock button {
+      padding: 15px 30px; 
+      font-size: 20px; 
+    }
+  
+    .getStartedBtnBlock p {
+      font-size: 28px; 
+    }
+  
+    .videoBlock {
+      padding: 20px 0; 
+    }
+  }

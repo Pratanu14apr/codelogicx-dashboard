@@ -1,0 +1,57 @@
+#journeySection {
+   padding-left: 180px;
+   margin-bottom: 55px;
+}
+#journeySection .container {
+    display: flex;
+    flex-direction: column;
+}
+#journeySection .container .titleBlock {
+    background-color: #265169;
+    padding: 5px 44px 5px 8px;
+    border-radius: 100px 0px 0px 100px;
+    margin-left: auto;
+    display: flex;
+    flex-direction: row;
+    width: 800px;
+    margin-bottom: 110px;
+
+}
+#journeySection .container .titleBlock .iconBlock{
+    width: 90px;
+    height: 90px;
+    border-radius: 500px;
+    background-color: #33b1e0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#journeySection .container .titleBlock .textBlock {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#journeySection .container .titleBlock .textBlock p{
+    font-size: 38px;
+    font-weight: 500;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+
+@media (max-width: 768px) {
+    #journeySection {
+        padding-left: 20px;
+        padding-right: 20px; 
+    }
+
+    #journeySection .container .titleBlock {
+        width: auto; 
+        padding: 5px 20px; 
+        border-radius: 0; 
+        margin-left: 0;
+        margin-bottom: 30px;
+    }
+}
