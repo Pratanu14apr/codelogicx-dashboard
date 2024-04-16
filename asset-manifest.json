@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/codelogicx-dashboard/static/css/main.7bf93278.css",
+    "main.js": "/codelogicx-dashboard/static/js/main.3a37ee72.js",
+    "static/js/453.0ae18cfa.chunk.js": "/codelogicx-dashboard/static/js/453.0ae18cfa.chunk.js",
+    "static/media/PD.png": "/codelogicx-dashboard/static/media/PD.46eb3ae2b9794427ba27.png",
+    "static/media/bg2.png": "/codelogicx-dashboard/static/media/bg2.6ffdee9709172d991181.png",
+    "static/media/step.png": "/codelogicx-dashboard/static/media/step.e051a42e641eebdfb803.png",
+    "static/media/ProjManagement.png": "/codelogicx-dashboard/static/media/ProjManagement.8d8a24607cb9e280bf75.png",
+    "static/media/bg1.png": "/codelogicx-dashboard/static/media/bg1.870ef2461621c81c4e42.png",
+    "static/media/QA.png": "/codelogicx-dashboard/static/media/QA.4c0c283ce7e41c7b9aad.png",
+    "static/media/vidThumb.png": "/codelogicx-dashboard/static/media/vidThumb.fe0a5744e5a29234332c.png",
+    "static/media/UIDev.png": "/codelogicx-dashboard/static/media/UIDev.347b58e8753741b6ccf6.png",
+    "static/media/DevService.png": "/codelogicx-dashboard/static/media/DevService.bd8da51255084188c985.png",
+    "static/media/TechConsult.png": "/codelogicx-dashboard/static/media/TechConsult.41b49840e76752cb000f.png",
+    "static/media/Cloud.png": "/codelogicx-dashboard/static/media/Cloud.77c450c63367dbfb9572.png",
+    "static/media/appScaling.png": "/codelogicx-dashboard/static/media/appScaling.fccd75ee48bd03b8211d.png",
+    "static/media/startup.png": "/codelogicx-dashboard/static/media/startup.cca8305a813e95c6a4de.png",
+    "index.html": "/codelogicx-dashboard/index.html",
+    "main.7bf93278.css.map": "/codelogicx-dashboard/static/css/main.7bf93278.css.map",
+    "main.3a37ee72.js.map": "/codelogicx-dashboard/static/js/main.3a37ee72.js.map",
+    "453.0ae18cfa.chunk.js.map": "/codelogicx-dashboard/static/js/453.0ae18cfa.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7bf93278.css",
+    "static/js/main.3a37ee72.js"
+  ]
+}
